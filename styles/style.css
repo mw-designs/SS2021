@@ -40,8 +40,9 @@ ol {
 
 .header-text-container {
   text-align: center;
-  top:5px;
+  top: 5px;
   position: absolute;
+  z-index: 5;
   margin:0 auto;
   display: block;
   width: 100%;

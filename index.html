@@ -1,12 +1,13 @@
 <!DOCTYPE html>
+
 <head>
   <script src="scripts/functions.js" defer></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
-<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
 
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
-  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"/>
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -14,196 +15,408 @@
 
   <link rel="stylesheet" href="styles/style.css">
 </head>
+
 <body>
   <div id="container">
-       <!-- Topic Cards -->
-       <div id="cards_landscape_wrap-2" class="">
-        <div class="container-sm">
-            <div class="row justify-content-center animate__animated animate__fadeInLeft animate__delay-1s animate__slow" id="leftRow">
-                <div class="col-sm-3" style="width: 24rem;">
-                  <span class="pull-right clickable close-icon" data-effect="fadeOut" id="closeButton"><i class="fa fa-times"></i></span>
-                    <a href="">
-                        <div class="card-flyer">
-                            <div class="text-box">
-                                <div class="image-box">
-                                    <img src="images/cards/christmas-g025d1d386_640.png" alt="" />
-                                </div>
-                                <div class="text-container">
-                                    <h6 class="top-row-header">Jon</h6>
-                                    <div class="card-content">
-                                      <ol class="shadow-sm">
-                                        <li>Item 1</li>
-                                        <li>Item 2</li>
-                                        <li>Item 3</li>
-                                        <li>Item 4</li>
-                                        <li>Item 5</li>
-                                        <li>Item 6</li>
-                                      </ol>
-                                      <button type="button" class="btn btn-sm btn-outline-success shadow-none">Success</button>
-                                      <a href="#"><button type="button" class="btn btn-sm btn-outline-secondary shadow-none" style="margin-left: -5px;">Secondary</button></a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-sm-3" style="width: 24rem;">
-                  <span class="pull-right clickable close-icon" data-effect="fadeOut" id="closeButton"><i class="fa fa-times"></i></span>
-                    <a href="">
-                        <div class="card-flyer">
-                            <div class="text-box">
-                                <div class="image-box">
-                                    <img src="images/cards/deer-g75697b91e_640.jpg" alt="" />
-                                </div>
-                                <div class="text-container">                                    
-                                    <h6 class="top-row-header">Matt</h6>
-                                    <div class="card-content">
-                                      <ol>
-                                        <li>Item 1</li>
-                                        <li>Item 2</li>
-                                        <li>Item 3</li>
-                                        <li>Item 4</li>
-                                        <li>Item 5</li>
-                                        <li>Item 6</li>
-                                      </ol>
-                                      <a href="#"><button type="button" class="btn btn-sm btn-outline-success shadow-none" >Success</button></a>
-                                      <a href="#"><button type="button" class="btn btn-sm btn-outline-secondary shadow-none" style="margin-left: -5px;">Secondary</button></a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-sm-3" style="width: 24rem;">
-                  <span class="pull-right clickable close-icon" data-effect="fadeOut" id="closeButton"><i class="fa fa-times"></i></span>
-                    <a href="">
-                        <div class="card-flyer">
-                            <div class="text-box">
-                                <div class="image-box">
-                                    <img src="images/cards/forest-g32efcc477_640.jpg" alt="" />
-                                </div>
+    <!-- Topic Cards -->
+    <div id="cards_landscape_wrap-2" class="">
+      <div class="container-sm">
+        <div class="row justify-content-center animate__animated animate__fadeInLeft animate__delay-1s animate__slow" id="leftRow">
+          <div class="col-sm-3" style="width: 24rem;">
+            <span class="pull-right clickable close-icon" data-effect="fadeOut" id="closeButton"><i class="fa fa-times"></i></span>
 
-                                <div class="text-container">
-                                    <h6 class="top-row-header">Mom</h6>
-                                    <div class="card-content">
-                                      <ol>
-                                        <li>Item 1</li>
-                                        <li>Item 2</li>
-                                        <li>Item 3</li>
-                                        <li>Item 4</li>
-                                        <li>Item 5</li>
-                                        <li>Item 6</li>
-                                      </ol>
-                                      <a href="#"><button type="button" class="btn btn-sm btn-outline-success shadow-none">Success</button></a>
-                                      <a href="#"><button type="button" class="btn btn-sm btn-outline-secondary shadow-none" style="margin-left: -5px;">Secondary</button></a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </a>
+            <div class="card-flyer">
+              <div class="text-box">
+                <div class="image-box">
+                  <img src="images/cards/christmas-g025d1d386_640.png" alt="" />
                 </div>
-              </div>
-              <div class="row justify-content-center animate__animated animate__fadeInRight animate__delay-2s animate__slow">
-                <div class="col-sm-3" style="width: 24rem;">
-                  <span class="pull-right clickable close-icon" data-effect="fadeOut" id="closeButton"><i class="fa fa-times"></i></span>
-                  <a href="">
-                      <div class="card-flyer">
-                          <div class="text-box">
-                              <div class="image-box">
-                                  <img src="images/cards/landscape-g2ca549f45_640.jpg" alt="" />
-                              </div>
-                              <div class="text-container">
-                                  <h6 class="bottom-row-header">Stephen</h6>
-                                   <div class="card-content">
-                                      <ol>
-                                        <li>Item 1</li>
-                                        <li>Item 2</li>
-                                        <li>Item 3</li>
-                                        <li>Item 4</li>
-                                        <li>Item 5</li>
-                                        <li>Item 6</li>
-                                      </ol>
-                                      <a href="#"><button type="button" class="btn btn-sm btn-outline-success shadow-none">Success</button></a>
-                                      <a href="#"><button type="button" class="btn btn-sm btn-outline-secondary shadow-none" style="margin-left: -5px;">Secondary</button></a>
-                                    </div>
-                              </div>
-                          </div>
-                      </div>
-                  </a>
-              </div>
-                <div class="col-sm-3" style="width: 24rem;">
-                  <span class="pull-right clickable close-icon" data-effect="fadeOut" id="closeButton"><i class="fa fa-times"></i></span>
-                    <a href="">
-                        <div class="card-flyer">
-                            <div class="text-box">
-                                <div class="image-box">
-                                    <img src="images/cards/tree-ga4eaa17ef_640.jpg" alt="" />
-                                </div>
-                                <div class="text-container">
-                                    <h6 class="bottom-row-header">Rachel</h6>
-                                    <div class="card-content">
-                                      <ol>
-                                        <li>Item 1</li>
-                                        <li>Item 2</li>
-                                        <li>Item 3</li>
-                                        <li>Item 4</li>
-                                        <li>Item 5</li>
-                                        <li>Item 6</li>
-                                      </ol>
-                                      <a href="#"><button type="button" class="btn btn-sm btn-outline-success shadow-none">Success</button></a>
-                                      <a href="#"><button type="button" class="btn btn-sm btn-outline-secondary shadow-none" style="margin-left: -5px;">Secondary</button></a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </a>
+                <div class="text-container">
+                  <h6 class="top-row-header">Jon</h6>
+                  <div class="card-content">
+                    <ol class="shadow-sm">
+                      <li>Item 1</li>
+                      <li>Item 2</li>
+                      <li>Item 3</li>
+                      <li>Item 4</li>
+                      <li>Item 5</li>
+                      <li>Item 6</li>
+                    </ol>
+                    <button type="button" class="btn btn-sm btn-outline-secondary shadow-none" data-bs-toggle="modal" data-bs-target="#jonModal">Detailed List</button>
+                    <button type="button" class="btn btn-sm btn-outline-success shadow-none" style="margin-left: -5.5px;">Print View</button>
+                  </div>
                 </div>
-                <div class="col-sm-3" style="width: 24rem;">
-                  <span class="pull-right clickable close-icon" data-effect="fadeOut" id="closeButton"><i class="fa fa-times"></i></span>
-                  <a href="">
-                      <div class="card-flyer">
-                          <div class="text-box">
-                              <div class="image-box">
-                                  <img src="images/cards/christmas-g41f061420_640.jpg" alt="" />
-                              </div>
-                              <div class="text-container">
-                                  <h6 class="bottom-row-header">Valerie</h6>
-                                  <div class="card-content">
-                                      <ol>
-                                        <li>Item 1</li>
-                                        <li>Item 2</li>
-                                        <li>Item 3</li>
-                                        <li>Item 4</li>
-                                        <li>Item 5</li>
-                                        <li>Item 6</li>
-                                      </ol>
-                                      <a href="#"><button type="button" class="btn btn-sm btn-outline-success shadow-none">Success</button></a>
-                                      <a href="#"><button type="button" class="btn btn-sm btn-outline-secondary shadow-none" style="margin-left: -5px;">Secondary</button></a>
-                                    </div>
-                              </div>
-                          </div>
-                      </div>
-                  </a>
               </div>
             </div>
+
+          </div>
+          <div class="col-sm-3" style="width: 24rem;">
+            <span class="pull-right clickable close-icon" data-effect="fadeOut" id="closeButton"><i class="fa fa-times"></i></span>
+
+            <div class="card-flyer">
+              <div class="text-box">
+                <div class="image-box">
+                  <img src="images/cards/deer-g75697b91e_640.jpg" alt="" />
+                </div>
+                <div class="text-container">
+                  <h6 class="top-row-header">Matt</h6>
+                  <div class="card-content">
+                    <ol>
+                      <li>Item 1</li>
+                      <li>Item 2</li>
+                      <li>Item 3</li>
+                      <li>Item 4</li>
+                      <li>Item 5</li>
+                      <li>Item 6</li>
+                    </ol>
+                    <button type="button" class="btn btn-sm btn-outline-secondary shadow-none" data-bs-toggle="modal" data-bs-target="#mattModal">Detailed List</button>
+                    <button type="button" class="btn btn-sm btn-outline-success shadow-none" style="margin-left: -5.5px;">Print View</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+          <div class="col-sm-3" style="width: 24rem;">
+            <span class="pull-right clickable close-icon" data-effect="fadeOut" id="closeButton"><i class="fa fa-times"></i></span>
+
+            <div class="card-flyer">
+              <div class="text-box">
+                <div class="image-box">
+                  <a href="" data-bs-toggle="modal" data-bs-target="#momModal"><img src="images/cards/forest-g32efcc477_640.jpg" alt="" /></a>
+                </div>
+
+                <div class="text-container">
+                  <h6 class="top-row-header">Mom</h6>
+                  <div class="card-content">
+                    <ol>
+                      <li>Bible Cover</li>
+                      <li>Juki Plastic Bobbins</li>
+                      <li>Swatch Ruler & Needle Gauge</li>
+                      <li>Deep Glass Baking Dish Set</li>
+                      <li>Silicone Soup Ladle</li>
+                      <li>Enameled Colander</li>
+                    </ol>
+                    <button type="button" class="btn btn-sm btn-outline-secondary shadow-none" data-bs-toggle="modal" data-bs-target="#momModal">Detailed List</button>
+                    <a href="pdfs/mom-ss.pdf" target="_BLANK"><button type="button" class="btn btn-sm btn-outline-success shadow-none" style="margin-left: -5.5px;">Print View</button></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
         </div>
-    </div>
-    <canvas id='canvas'></canvas>
-    <div class="header-text-container animate__animated animate__flipInX animate__slow">
-        <div class='header-text'>
-            <div class="SSText">Secret</div>
-            <div class="row">
-              <div class="SSText2">Santa <span class="SSYear">2021</span></div>
+        <div class="row justify-content-center animate__animated animate__fadeInRight animate__delay-2s animate__slow">
+          <div class="col-sm-3" style="width: 24rem;">
+            <span class="pull-right clickable close-icon" data-effect="fadeOut" id="closeButton"><i class="fa fa-times"></i></span>
+
+            <div class="card-flyer">
+              <div class="text-box">
+                <div class="image-box">
+                  <img src="images/cards/landscape-g2ca549f45_640.jpg" alt="" />
+                </div>
+                <div class="text-container">
+                  <h6 class="bottom-row-header">Stephen</h6>
+                  <div class="card-content">
+                    <ol>
+                      <li>Item 1</li>
+                      <li>Item 2</li>
+                      <li>Item 3</li>
+                      <li>Item 4</li>
+                      <li>Item 5</li>
+                      <li>Item 6</li>
+                    </ol>
+                    <button type="button" class="btn btn-sm btn-outline-secondary shadow-none" data-bs-toggle="modal" data-bs-target="#stephenModal">Detailed List</button>
+                    <a href="pdfs/mom-ss.pdf" target="_BLANK"><button type="button" class="btn btn-sm btn-outline-success shadow-none" style="margin-left: -5.5px;">Print View</button></a>
+                  </div>
+                </div>
+              </div>
             </div>
+
+          </div>
+          <div class="col-sm-3" style="width: 24rem;">
+            <span class="pull-right clickable close-icon" data-effect="fadeOut" id="closeButton"><i class="fa fa-times"></i></span>
+
+            <div class="card-flyer">
+              <div class="text-box">
+                <div class="image-box">
+                  <img src="images/cards/tree-ga4eaa17ef_640.jpg" alt="" />
+                </div>
+                <div class="text-container">
+                  <h6 class="bottom-row-header">Rachel</h6>
+                  <div class="card-content">
+                    <ol>
+                      <li>Item 1</li>
+                      <li>Item 2</li>
+                      <li>Item 3</li>
+                      <li>Item 4</li>
+                      <li>Item 5</li>
+                      <li>Item 6</li>
+                    </ol>
+                    <button type="button" class="btn btn-sm btn-outline-secondary shadow-none" data-bs-toggle="modal" data-bs-target="#rachelModal">Detailed List</button>
+                    <button type="button" class="btn btn-sm btn-outline-success shadow-none" style="margin-left: -5.5px;">Print View</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+          <div class="col-sm-3" style="width: 24rem;">
+            <span class="pull-right clickable close-icon" data-effect="fadeOut" id="closeButton"><i class="fa fa-times"></i></span>
+
+            <div class="card-flyer">
+              <div class="text-box">
+                <div class="image-box">
+                  <img src="images/cards/christmas-g41f061420_640.jpg" alt="" />
+                </div>
+                <div class="text-container">
+                  <h6 class="bottom-row-header">Valerie</h6>
+                  <div class="card-content">
+                    <ol>
+                      <li>Item 1</li>
+                      <li>Item 2</li>
+                      <li>Item 3</li>
+                      <li>Item 4</li>
+                      <li>Item 5</li>
+                      <li>Item 6</li>
+                    </ol>
+                    <button type="button" class="btn btn-sm btn-outline-secondary shadow-none" data-bs-toggle="modal" data-bs-target="#valerieModal">Detailed List</button>
+                    <button type="button" class="btn btn-sm btn-outline-success shadow-none" style="margin-left: -5.5px;">Print View</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
         </div>
       </div>
+    </div>
+
+    
+    <canvas id='canvas'></canvas>
+    <div class="header-text-container animate__animated animate__flipInX animate__slow">
+      <div class='header-text'>
+        <div class="" style="position: absolute; z-index: 5; top: 0; right: 0; width: 100px; text-align:right; padding-right: 10px;">
+          <a href="javascript:void(0);" onclick="playMusic();"><i class="fas fa-volume-up"></i></a>
+        </div>
+        <div class="SSText">Secret</div>
+        <div class="row">
+          <div class="SSText2">Santa <span class="SSYear">2021</span></div>
+        </div>
+      </div>
+    </div>
   </div>
-  
+
+  <div class="modal fade" id="jonModal" tabindex="-1" aria-labelledby="jonModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Jon's Secret Santa List</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          ...
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-sm btn-secondary" data-bs-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-sm btn-success">Print View</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal fade" id="mattModal" tabindex="-1" aria-labelledby="mattModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Matt's Secret Santa List</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          ...
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-sm btn-secondary" data-bs-dismiss="modal">Close</button>
+          <a href="pdfs/mom-ss.pdf" target="_BLANK"><button type="button" class="btn btn-sm btn-success">Print View</button></a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal fade" id="momModal" tabindex="-1" aria-labelledby="momModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Mom's Secret Santa List</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <table class="table table-sm">
+            <thead>
+              <tr>
+                <th scope="col">#</th>
+                <th scope="col">Item</th>
+                <th scope="col">Qty</th>
+                <th scope="col">Comp</th>
+                <th scope="col">Store</th>
+                <th scope="col">Model/ASIN</th>
+                <th scope="col">Color</th>
+                <th scope="col">Size</th>
+                <th scope="col">Cost</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row">1</th>
+                <td>Bible Cover</td>
+                <td>1</td>
+                <td>MoKo</td>
+                <td>Amazon</td>
+                <td>B08QZFWV74</td>
+                <td>Blue Flowers</td>
+                <td>10x7.5x2.5</td>
+                <td>$17.99</td>
+              </tr>
+              <tr>
+                <th scope="row">2</th>
+                <td>Juki Plastic Drop in Bobbins/package 5</td>
+                <td>3</td>
+                <td>Juki</td>
+                <td>Amazon</td>
+                <td>BCAC15734</td>
+                <td>CLEAR</td>
+                <td>na</td>
+                <td>$9.42 </td>
+              </tr>
+              <tr>
+                <th scope="row">3</th>
+                <td>Swatch Ruler & Needle Gauge</td>
+                <td>1</td>
+                <td>Clover</td>
+                <td>Amazon</td>
+                <td>3200</td>
+                <td>White</td>
+                <td>5x5x5</td>
+                <td>$9.92 </td>
+              </tr>
+              <tr>
+                <th scope="row">4</th>
+                <td>Deep Glass Baking Dish Set</td>
+                <td>1</td>
+                <td>Pyrex</td>
+                <td>Amazon</td>
+                <td>1135014</td>
+                <td>Clear</td>
+                <td>na</td>
+                <td>$39.99 </td>
+              </tr>
+              <tr>
+                <th scope="row">5</th>
+                <td>Silicone Soup Ladle</td>
+                <td>1</td>
+                <td>KitchenAid</td>
+                <td>Amazon</td>
+                <td>BO7L4HXRBW</td>
+                <td>Aqua Sky</td>
+                <td>13"</td>
+                <td>$13.99 </td>
+              </tr>
+              <tr>
+                <th scope="row">6</th>
+                <td>Enameled Colander</td>
+                <td>1</td>
+                <td>Reston Lloyd</td>
+                <td>Amazon</td>
+                <td>88702</td>
+                <td>Turquoise</td>
+                <td>5 quart</td>
+                <td>$25.99 </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-sm btn-secondary" data-bs-dismiss="modal">Close</button>
+          <a href="pdfs/mom-ss.pdf" target="_BLANK"><button type="button" class="btn btn-sm btn-success">Print View</button></a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal fade" id="stephenModal" tabindex="-1" aria-labelledby="stephenModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Stephen's Secret Santa List</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          ...
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-sm btn-secondary" data-bs-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-sm btn-success">Print View</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal fade" id="rachelModal" tabindex="-1" aria-labelledby="rachelModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Rachel's Secret Santa List</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          ...
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-sm btn-secondary" data-bs-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-sm btn-success">Print View</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal fade" id="valerieModal" tabindex="-1" aria-labelledby="valerieModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Valerie's Secret Santa List</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          ...
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-sm btn-secondary" data-bs-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-sm btn-success">Print View</button>
+        </div>
+      </div>
+    </div>
+  </div>
 
   <script>
-    $('.close-icon').on('click',function() {
-    $(this).closest('.col-sm-3').fadeOut();
-  })
+    $('.close-icon').on('click', function() {
+      $(this).closest('.col-sm-3').fadeOut();
+    })
+
+    var audio = new Audio("music/christmas-magic-night-11648.mp3");
+    audio.volume = 0.5;
+    
+    function playMusic() {
+      audio.pause();
+    }
+
+    let playAttempt = setInterval(() => {
+      audio.play()
+    .then(() => {
+      clearInterval(playAttempt);
+    })
+    .catch(error => {
+      console.log('Unable to play the video, User has not interacted yet.');
+    });
+    }, 3000);
   </script>
 </body>
 
