@@ -20,14 +20,21 @@ canvas {
 }
 
 ol li {
-  margin-left: -15px;
+  margin-left: -10px;
   margin-top: -5px;
   color: #3c3c3c;
 }
 
-ol {
+ul li {
+  margin-left: -10px;
+  margin-top: -5px;
+  color: #3c3c3c;
+}
+
+.card-content-container {
   height: 100px;
   overflow-y: scroll;
+  margin-bottom: 20px;
 }
 
 .header-text{
